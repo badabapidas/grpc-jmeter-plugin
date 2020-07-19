@@ -28,4 +28,4 @@ Steps to deploy the server side implementations
 ```
 
 Jmeter GRPC plugin will be visible like 
-<img src="http://irepo.eur.ad.sag/projects/WID/repos/jiraireviewplugin/raw/mail.png?at=refs%2Fheads%2Fmaster" alt="Grpc Jmeter Plugin"/>
+<img src="https://github.com/badabapidas/grpc-jmeter-plugin/blob/master/plugin.png?at=refs%2Fheads%2Fmaster" alt="Grpc Jmeter Plugin"/>
