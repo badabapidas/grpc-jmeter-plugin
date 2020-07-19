@@ -1,0 +1,21 @@
+syntax = "proto3";
+package health;
+
+option java_multiple_files = true;
+option java_package = "com.sag.uhm.grpc.client.health";
+option java_outer_classname = "HealthProto";
+option objc_class_prefix = "uhm";
+
+message HealthCheckRequest {
+ string host = 1;
+ int32 port = 2;
+}
+
+message HealthCheckResponse {
+  string message = 1;
+}
+
+service HealthChecker {
+	rpc healthCheck(HealthCheckRequest) returns (HealthCheckResponse);
+}
+
