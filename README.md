@@ -29,3 +29,7 @@ Steps to deploy the server side implementations
 
 Jmeter GRPC plugin will be visible like 
 <img src="https://github.com/badabapidas/grpc-jmeter-plugin/blob/master/plugin.png?at=refs%2Fheads%2Fmaster" alt="Grpc Jmeter Plugin"/>
+
+New grpc sampler wil be shown in the class name and it will expcept two params, the host and the port where the server is running.
+
+Hope this will be useful. Happy learning.
